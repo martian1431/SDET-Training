@@ -3,7 +3,7 @@ package testng;
 import org.testng.annotations.DataProvider;
 
 public class TestData {
-	@DataProvider(name = "calc-data")
+	@DataProvider(name = "calc-data", parallel = true)
 	Object[][] testData(){
 		return new Object[][] {
 			{"2 + 3", "5"},//data set

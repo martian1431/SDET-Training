@@ -25,7 +25,7 @@ public class TestNGDataprovider {
 	
 	@BeforeClass
 	void setUpClass() { // 1 time
-		System.setProperty("webdriver.chrome.driver", "/Users/shaan/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\phmalope\\devProjects\\Driver\\chromedriver.exe");
 	}
 	
 	@AfterClass
